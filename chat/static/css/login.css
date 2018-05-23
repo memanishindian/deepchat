@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+.login-box{
+	position: absolute;
+	height: 500px;
+	width: 350px;
+	box-shadow: 5px 10px 10px #16B7FF;
+	top:50%;
+	left: 50%;
+	background: rgba(f, f, f, 0.5);
+	transform: translate(-50%, -50%);
+}
+
+img{
+	height: 100px;
+	width: 100px;
+	overflow: hidden;
+	position: absolute;
+	top:calc(100px/2);
+	left: calc(50% - 50px);
+}
+form{
+	margin-top:30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+input{
+	width: 100%;
+	margin-bottom: 20px;
+	height: 40px;
+	border:none;
+	background: transparent;	
+	border-bottom: 2px solid #16B7FF;
+	font-size: 18px;
+}
+button{
+	margin-top: 40px;
+	width: 100%;
+	border:none;
+	height: 40px;
+	background: #16B7FF;
+}
+h2{
+	margin-top: 150px;
+	text-align: center;
+}
